@@ -3,4 +3,5 @@
 `docker build -t somerepo/somedir:tag .`
 3. Push your somerepo/somedir:tag to your container registry
 4. Edit image repo in this deployment yaml example
-5. Apply the yaml to kubernetes
+5. Create namespace "sample"
+6. Apply the yaml to kubernetes
