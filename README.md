@@ -5,8 +5,8 @@ This repo was created for debugging headers that incoming to the backend
 `docker build -t somerepo/somedir:tag .`
 if you are using multi acrhitecture, follow thess steps:
 
-- `docker build docker.io/salamflamo/express-js-sample:manifest-arm64 --build-arg ARCH=arm64/ .` #running this command on arm machine
-- `docker build docker.io/salamflamo/express-js-sample:manifest-amd64 --build-arg ARCH=amd64/ .` #running this command on amd machine
+- `docker build -t docker.io/salamflamo/express-js-sample:manifest-arm64 --build-arg ARCH=arm64/ .` #running this command on arm machine
+- `docker build -t docker.io/salamflamo/express-js-sample:manifest-amd64 --build-arg ARCH=amd64/ .` #running this command on amd machine
 
 ```
 docker manifest create \
