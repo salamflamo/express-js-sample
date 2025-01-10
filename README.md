@@ -20,3 +20,10 @@ docker.io/salamflamo/express-js-sample:multi \
 5. Edit image repo in this deployment yaml example
 6. Create namespace "sample"
 7. Apply the yaml to kubernetes
+
+### Use expose.sh to testing with others
+1. Fork this repo
+2. Upload your ssh public key to your github account
+3. Clone express-js-sample repo using SSH clone
+4. Run command `ssh -R 1:localhost:3000 <your github username>@expose.sh`
+5. Happy try
